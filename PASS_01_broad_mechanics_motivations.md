@@ -1,12 +1,12 @@
-#Understanding the "why" before getting started on the math
+**_Understanding the "why" before getting started on the math_**
 
-#Key Objective:
+**Key Objective:**
 Understanding what problems the authors were solving
 
-#Approach:
+**Approach:**
 Read only the Abstract, Introduction, Conclusion, and Section 3 (Model Architecture)
 
-#Abstract:
+**Abstract:**
 The introduction proposes a new architecture for dominant sequence transduction models: the Transformer. Transformer architecture is based on the attention mechanism which allows neural networks to dynamically weigh the importance of different input elements. 
 It disposes the idea of recurrence and convolutions. Attention mechanisms are parallelization and require significantly less time for training.
 
@@ -18,4 +18,4 @@ Recurrence processes data sequentially, one elemental at a time. There is an int
 2. Convolutions:
 Convolutions process data using spatial filter (kernels) that slide across an input to detect local features to extract structural patterns. While it is highly efficient and parallelizable, it suffers from a limited "receptive field". A standard filter can only see a small patch of data at  time and missed the global context. It is primarily used in computer vision, image generation, medical scan analysis and video processing
 
-#Introduction:
+**Introduction:**
