@@ -111,3 +111,5 @@ Multi-head attention prevents this by using different projection parameter matri
 * Head 2 can project the tokens into a subspace where the key-query match is fine-tuned to capture linguistic attributes (like matching pronouns to nouns).
 * Head 3 can focus on verb-argument structures.
 By keeping these coordinate spaces separate during the attention step, the model preserves distinct contextual signals, merging them only at the very end when the concatenated head representations are mixed by the final output projection matrix $W^O$
+
+**Section 3.3 Position-wise Feed-Forward Networks**
